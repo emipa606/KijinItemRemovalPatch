@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="KijinStrangerInBlack"]/apparelRequired</xpath>
+    <value>
+      <apparelRequired>
+        <li>Apparel_CollarShirt</li>
+        <li>Apparel_Pants</li>
+        <li>Apparel_Duster</li>
+        <li>Apparel_FlakVest</li>
+        <li>Apparel_CowboyHat</li>
+      </apparelRequired>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="KijinStrangerInBlack"]/apparelColor</xpath>
+    <value>
+      <apparelColor>(58,58,58)</apparelColor>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ScenarioDef[defName="Kijin_Scenario"]/scenario/parts/li[thingDef="Kijin_Mace"]</xpath>
+    <value>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>MeleeWeapon_Mace</thingDef>
+        <stuff>Steel</stuff>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ScenarioDef[defName="Kijin_Scenario"]/scenario/parts/li[thingDef="Kijin_FlameBow"]</xpath>
+    <value>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Bow_Great</thingDef>
+        <count>2</count>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ScenarioDef[defName="Kijin_Scenario"]/scenario/parts/li[thingDef="Kijin_PosionBow"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[@ParentName="KijinWeapon"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Kijin_FlameSword"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Kijin_EpicArmor"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Kijin_EpicHelm"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Apparel_PowerArmorDK"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Apparel_PowerArmorHelmetDK"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Kijin_FirewardCharm"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Kijin_SmokeBombBelt"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Kijin_FlakVest"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/PawnKindDef/apparelRequired[li = "Kijin_SmokeBombBelt"]</xpath>
+  </Operation>
+</Patch>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Kijin Item Removal Patch</name>
+  <author>ssulunge</author>
+  <url>
+  </url>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <description>This mod removes All Kijins gears from game.</description>
+</ModMetaData>
