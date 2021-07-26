@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>aa663fa3-5ba6-407e-87ac-6b673c0a5736</ID>
   <ModName>Kijin Item Removal Patch (Continued)</ModName>
-  <Version>1.0.0.0</Version>
+  <Version>1.0.1.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,7 +12,3 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
-
