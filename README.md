@@ -1,6 +1,6 @@
 # KijinItemRemovalPatch
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of ssulunges mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1762143428
@@ -9,10 +9,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1762143428
 - Less destructive patching
 - Cannot remove the Darkmatter-parts since that is part of the Kijin assemblies now
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 This mod removes All Kijin items from game.
 Everything else stays the same(Factions, Race stats, Buildings,  Apparel looks, etc)
@@ -20,7 +20,7 @@ Everything else stays the same(Factions, Race stats, Buildings,  Apparel looks, 
 
 This mod is for those of who want to play Kijin more Vanilla-like.
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -33,3 +33,5 @@ This mod is for those of who want to play Kijin more Vanilla-like.
 
 
 
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2461492607]Last updated 2023-01-07
